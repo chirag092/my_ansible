@@ -4,7 +4,7 @@
 # Time older then x days
 # =============
 
-path: "/Users/ch362688/Desktop/Screenshots"
-older_then_days: "10"
+path: "/Users/user_name/Desktop/Screenshots"
+older_then_days: "30"
 
 
