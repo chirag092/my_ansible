@@ -1,0 +1,6 @@
+---
+- name : list of files we are going to delete
+  shell: find "{{ path }}" -type f -maxdepth 1 -mtime +{{ older_then_days }}
+
+- name: Delete files older than {{ older_then_days }} days
+  shell: find "{{ path }}" -type f -maxdepth 1 -mtime +{{ older_then_days }} -delete
